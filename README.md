@@ -2,14 +2,6 @@
 
 Project website for **NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning**, accepted at NeurIPS 2026.
 
-- Project page: open `index.html`
-- Paper: https://arxiv.org/abs/2609.38098v1
-- Paper source and original figures: `article/` (not required for website deployment)
-
-To deploy the project page, upload only `index.html` and `static/`. The local
-`article/` directory is retained as the editable paper source but is not used by
-the website.
-
 ## Citation
 
 ```bibtex
