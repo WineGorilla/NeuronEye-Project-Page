@@ -1,16 +1,24 @@
-# Nerfies
+# NeuronEye
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+Project website for **NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning**, accepted at NeurIPS 2026.
 
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+- Project page: open `index.html`
+- Paper: https://arxiv.org/abs/2609.38098v1
+- Paper source and original figures: `article/` (not required for website deployment)
+
+To deploy the project page, upload only `index.html` and `static/`. The local
+`article/` directory is retained as the editable paper source but is not used by
+the website.
+
+## Citation
+
+```bibtex
+@article{yan2026neuroneye,
+  title   = {NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning},
+  author  = {Yan, Ruiyu and Chen, Bowen and Wan, Shaowen and Zhao, Lin},
+  journal = {arXiv preprint arXiv:2609.38098},
+  year    = {2026}
 }
 ```
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+The website template is adapted from [Nerfies](https://github.com/nerfies/nerfies.github.io) under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
