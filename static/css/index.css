@@ -62,3 +62,6 @@
 @media screen and (max-width:600px){.image-lightbox{padding:3.75rem .75rem 1.25rem}.lightbox-image{max-height:calc(100vh - 7rem)}.lightbox-close{top:.75rem;right:.75rem}.nav-project-icon{width:1.9rem!important;height:1.9rem!important}}
 @media screen and (min-width:900px){.publication-header .container.is-max-desktop{max-width:1200px!important}.publication-title .title-line{white-space:nowrap}}
 @media screen and (min-width:769px){.single-line-heading{font-size:clamp(1.8rem,3vw,2.35rem)!important;white-space:nowrap}}
+
+/* Match the denser desktop presentation of the page at 80% browser zoom. */
+@media screen and (min-width:769px){body{zoom:.8}}
